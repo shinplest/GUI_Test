@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float avg, total;
+	int num_student = 7, num_trunc;
+
+	total = 401200;
+	avg = total / num_student;
+	num_trunc = total / num_student;
+
+	printf("%f\n", avg);
+	printf("%d", num_trunc);
+
+	return 0;
+}
